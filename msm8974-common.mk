@@ -110,6 +110,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
+# Charger
+PRODUCT_PACKAGES += \
+    chargeonlymode
+
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     make_ext4fs \
